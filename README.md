@@ -1,6 +1,6 @@
-# MedLLM
+# MedQueryBot
 
-MedLLM is a medical chatbot designed to answer questions based on PDFs in the `data` folder. It includes a user-friendly interface built with HTML, CSS, and Flask, and utilizes Pinecone for vector storage along with Groq for API handling.
+MedLLM is a Retrieval-Augmented Generation (RAG) chatbot designed to efficiently answer medical queries. It utilizes Pinecone for storing and retrieving medical data, the sentence-transformers/all-MiniLM-L6-v2 model for understanding user input, and LangChain for streamlined data retrieval and generation. A Flask-based interface ensures an intuitive and user-friendly experience.
 
 ## Quick Start
 
@@ -57,5 +57,7 @@ Embedding & Retrieval: Utilizes the all-MiniLM-L6-v2 embedding model and Pinecon
 
 Interactive UI: Chat interface built with HTML, CSS, and Flask.
 
+### Contact
 
+For any inquiries, contact Aryan Gupta at aryangupta159119@gmail.com.
 
